@@ -21,12 +21,16 @@ CLASSIFIERS = [
     'Topic :: Software Development :: Libraries :: Application Frameworks',
     'Topic :: Software Development :: Libraries :: Python Modules',
 ]
-
+# quick and dirty way to copy all templates
 PACKAGE_DATA = {
     '': [
         'locale/**/*.mo',
         'templates/*.*',
         'templates/**/*.*',
+        'templates/*/*.*',
+        'templates/*/*/*.*',
+        'templates/*/*/*/*.*',
+        'templates/*/*/*/*/*.*',
     ],
 }
 
